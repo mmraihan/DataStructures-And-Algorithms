@@ -19,7 +19,7 @@ namespace LinearSearch
         {
             Search s = new Search();
             int[] A = { 84, 20, 44, 33, 22 };
-            int found= s.linearSearch(A, 5, 22);
+            int found= s.linearSearch(A, 5, 21);
             Console.WriteLine("Result: " +found);
             Console.ReadKey();
 
